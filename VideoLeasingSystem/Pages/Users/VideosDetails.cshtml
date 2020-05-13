@@ -4,21 +4,57 @@
     ViewData["Title"] = "VideosDetails";
 }
 
-<h1>VideosDetails</h1>
-
+<div class="vdetails-heading">
+    <h2>Details of @Model.VideoData.VideoName :</h2>
+</div>
 
 <div class="row main-videos-div">
-        <div class="col-4">
-            <div class="card videos-display">
-                <div class="card-body video-name-back">
-                    <div class="card-header">
-                        <h3 class="video-name text-center">@Model.VideoData.VideoName</h3>
-                    </div>
-                </div>
-                <form method="post">
-                    <input type="submit" value="add this movie" />
-                </form>
-            </div>
-        </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Actor :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.Actor</h5>
+    </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Director :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.Director</h5>
+    </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Language :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.Language</h5>
+    </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Description :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.Description</h5>
+    </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Number of Copies Available :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.NoOfCopies</h5>
+    </div>
+
+    <div class="col-3">
+        <h5 class="details-label">Lease Amount :</h5>
+    </div>
+    <div class="col-9">
+        <h5 class="details-text">@Model.VideoData.LeaseAmount</h5>
+    </div>
+
 </div>
+
+<form method="post">
+    <input type="submit" class="addvid-btn" value="Add Video" />
+</form>
 

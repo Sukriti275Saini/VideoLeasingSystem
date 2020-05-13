@@ -13,8 +13,8 @@
     margin-top: 50px;
     padding: 40px;
     background: rgba(0, 0, 0, 0.75);
-    margin-left: 28%;
-    margin-right: 28%;
+    margin-left: 30%;
+    margin-right: 30%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -24,25 +24,27 @@
     border-radius: 3px;
 }
 .mainpage-btn {
-    padding: 20px;
+    padding: 15px;
     margin: 20px 0px;
     min-height: 60px;
     min-width: 200px;
     border: 1px solid white;
     border-radius: 10px;
-    background: #09274A;
+    background: rgb(10, 9, 104);
     color: white;
     box-shadow: 1px 1px 4px white;
     font-weight: 600;
 }
-    .mainpage-btn:hover {
-        background: #354b66;
-        color: black;
-        border: 1px solid black;
-        box-shadow: none;
-    }
+.mainpage-btn:hover {
+    background: #0b1949;
+    color: #b4b4b4;
+    border: 1px solid #b4b4b4;
+    box-shadow: none;
+}
 .userloginheading{ 
     margin: 50px 0 70px 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px white;
 }
 .loginform {
     margin: auto;
@@ -58,12 +60,30 @@
 }
 .loginform input {
     width: 100%;
+    min-height: 30px;
     margin-bottom: 20px;
     border: none;
     background: rgba(255, 255, 255, 0.10);
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
     outline: none;
     color: white;
+}
+.login-signup-btn {
+    padding: 8px;
+    margin: 15px 0px;
+    min-width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    box-shadow: 1px 1px 4px white;
+    font-weight: 600;
+}
+.login-signup-btn:hover {
+    background: #151515;
+    color: #b4b4b4;
+    border: 1px solid #b4b4b4;
+    box-shadow: none;
 }
 
 .search-input{
