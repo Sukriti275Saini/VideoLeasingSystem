@@ -1,0 +1,74 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url('../myback.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.choose-heading h1{
+    margin: 50px 0px 30px 0px;
+}
+.box {
+    margin-top: 50px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.75);
+    margin-left: 28%;
+    margin-right: 28%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.70);
+    border-radius: 3px;
+}
+.mainpage-btn {
+    padding: 20px;
+    margin: 20px 0px;
+    min-height: 60px;
+    min-width: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #09274A;
+    color: white;
+    box-shadow: 1px 1px 4px white;
+    font-weight: 600;
+}
+    .mainpage-btn:hover {
+        background: #354b66;
+        color: black;
+        border: 1px solid black;
+        box-shadow: none;
+    }
+.userloginheading{ 
+    margin: 50px 0 70px 0;
+}
+.loginform {
+    margin: auto;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.70);
+    border-radius: 3px;
+    padding: 40px;
+}
+.loginform label{
+    color: white;
+    font-weight: 500;
+}
+.loginform input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.10);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    outline: none;
+    color: white;
+}
+
+.search-input{
+    outline:none;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}

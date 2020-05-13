@@ -1,0 +1,30 @@
+﻿@page "{username}"
+@model UserDashboardModel
+@{
+    ViewData["Title"] = "UserDashboard";
+}
+
+    <form method="post">
+        <input type="submit" value="Logout" />
+    </form>
+
+    <div class="row">
+        @foreach (var item in Model.UserRecord)
+        {
+            <div class="col-12">
+                <div>
+                    @item.Video.VideoName
+                </div>
+                <div>
+                    @item.ReturnDate
+                </div>
+                <div>
+                    @item.IssueDate
+                </div>
+                <div>
+                    <a asp-page="return" asp-route-rid="@item.RecordId">Return</a>
+                </div>
+            </div>
+        }
+    </div>
+

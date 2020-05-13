@@ -1,0 +1,38 @@
+﻿@page
+@model VideoLeasingSystem.Pages.Users.SelectVideoModel
+@{
+    ViewData["Title"] = "SelectVideo";
+}
+
+<p class="search-text">Search for your video</p>
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control search-input" asp-for="SearchVideo" />
+            <span class="input-group-btn">
+                <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<h1 class="user-video-heading">All Videos</h1>
+
+
+<div class="row main-videos-div">
+    @foreach (var videos in Model.Videos)
+    {
+    <div class="col-4">
+        <div class="card videos-display">
+            <div class="card-body video-name-back">
+                <div class="card-header">
+                    <h3 class="video-name text-center">@videos.VideoName</h3>
+                </div>
+            </div>
+            <a role="button" asp-page="VideosDetails" asp-route-vid="@videos.VideoId" class="btn card-button card-footer">Video Details</a>
+        </div>
+    </div>
+    }
+</div>

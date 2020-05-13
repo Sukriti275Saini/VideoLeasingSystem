@@ -1,0 +1,56 @@
+﻿@page
+@model VideoLeasingSystem.Pages.Users.UserLoginModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserLogin</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="userloginheading text-center">Enter your login credentials</h1>
+    <div class="loginform">
+        <form method="post">
+            <div class="row">
+                <div class="col-4">
+                    <label asp-for="@Model.LoginDetails.UserName"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.LoginDetails.UserName" />
+                </div>
+                <div class="col-12">
+                    <span asp-validation-for="@Model.LoginDetails.UserName"></span>
+                </div>
+
+                <div class="col-4">
+                    <label asp-for="@Model.LoginDetails.Password">Password:</label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.LoginDetails.Password" />
+                </div>
+                <div class="col-12">
+                    <span asp-validation-for="@Model.LoginDetails.Password"></span>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button class="btn btn-light" type="submit">Login</button>
+                </div>
+                <div>
+                    <p class="text-danger">@Model.Message</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>

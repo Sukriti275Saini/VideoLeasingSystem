@@ -1,0 +1,13 @@
+﻿@page "{rid:int}"
+@model VideoLeasingSystem.Pages.Users.ReturnModel
+@{
+    ViewData["Title"] = "Return";
+}
+
+
+    <h1>Return @Model.ReturnDetails.Video.VideoName</h1>
+
+    <form method="post">
+        <input type="submit" value="return back" />
+    </form>
+

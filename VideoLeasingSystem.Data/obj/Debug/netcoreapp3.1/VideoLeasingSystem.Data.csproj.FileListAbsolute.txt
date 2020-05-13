@@ -1,0 +1,15 @@
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Data.deps.json
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Data.dll
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Data.pdb
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Core.dll
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Core.pdb
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.csprojAssemblyReference.cache
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.AssemblyInfoInputs.cache
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.AssemblyInfo.cs
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.csproj.CopyComplete
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.dll
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.pdb
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Data.runtimeconfig.json
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Data.runtimeconfig.dev.json
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.csproj.CoreCompileInputs.cache
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Data\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Data.genruntimeconfig.cache

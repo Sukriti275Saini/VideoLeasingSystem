@@ -1,0 +1,72 @@
+﻿@page
+@model VideoLeasingSystem.Pages.Admin.videos.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].VideoName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].Language)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].Actor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].Director)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].NoOfCopies)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Video[0].LeaseAmount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Video) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VideoName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Language)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Director)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfCopies)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaseAmount)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.VideoId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.VideoId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.VideoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

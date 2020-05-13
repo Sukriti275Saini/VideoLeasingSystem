@@ -1,0 +1,9 @@
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Core.deps.json
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Core.dll
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\bin\Debug\netcoreapp3.1\VideoLeasingSystem.Core.pdb
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.csproj.CoreCompileInputs.cache
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.AssemblyInfoInputs.cache
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.AssemblyInfo.cs
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.dll
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.pdb
+F:\Dotnet Projects\VideoLeasingSystem\VideoLeasingSystem.Core\obj\Debug\netcoreapp3.1\VideoLeasingSystem.Core.csprojAssemblyReference.cache

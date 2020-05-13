@@ -1,0 +1,24 @@
+﻿@page "{vid:int}"
+@model VideoLeasingSystem.Pages.Users.VideosDetailsModel
+@{
+    ViewData["Title"] = "VideosDetails";
+}
+
+<h1>VideosDetails</h1>
+
+
+<div class="row main-videos-div">
+        <div class="col-4">
+            <div class="card videos-display">
+                <div class="card-body video-name-back">
+                    <div class="card-header">
+                        <h3 class="video-name text-center">@Model.VideoData.VideoName</h3>
+                    </div>
+                </div>
+                <form method="post">
+                    <input type="submit" value="add this movie" />
+                </form>
+            </div>
+        </div>
+</div>
+

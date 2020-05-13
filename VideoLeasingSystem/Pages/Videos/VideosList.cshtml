@@ -1,0 +1,56 @@
+﻿@page
+@model VideoLeasingSystem.Pages.Videos.VideosListModel
+@{
+}
+
+<h1>All Videos</h1>
+
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control search-input" />
+            <span class="input-group-btn">
+                <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Video Id</th>
+            <th>Name</th>
+            <th>Language</th>
+            <th>Actor</th>
+            <th>Director</th>
+            <th>Description</th>
+            <th>Number of Copies Available</th>
+            <th>Lease Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var videos in Model.Videos)
+        {
+        <tr>
+            <td>@videos.VideoId</td>
+            <td>@videos.VideoName</td>
+            <td>@videos.Language</td>
+            <td>@videos.Actor</td>
+            <td>@videos.Director</td>
+            <td>@videos.Description</td>
+            <td>@videos.NoOfCopies</td>
+            <td>@videos.LeaseAmount</td>
+            <td>
+                <form method="post">
+                    <input type="hidden" asp- asp-for="MovieId" />
+                    <input type="submit" value="Add this movie" />
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
